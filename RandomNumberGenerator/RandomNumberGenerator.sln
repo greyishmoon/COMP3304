@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RandomNumberGenerator", "RandomNumberGenerator\RandomNumberGenerator.vcxproj", "{8683C393-357E-4E53-9BEB-4C9169BB0116}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SetupRandomGenApp", "SetupRandomGenApp\SetupRandomGenApp.vdproj", "{955C68C3-5FBA-4A4D-A34B-501D82C11E49}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{8683C393-357E-4E53-9BEB-4C9169BB0116}.Release|x64.Build.0 = Release|x64
 		{8683C393-357E-4E53-9BEB-4C9169BB0116}.Release|x86.ActiveCfg = Release|Win32
 		{8683C393-357E-4E53-9BEB-4C9169BB0116}.Release|x86.Build.0 = Release|Win32
+		{955C68C3-5FBA-4A4D-A34B-501D82C11E49}.Debug|x64.ActiveCfg = Debug
+		{955C68C3-5FBA-4A4D-A34B-501D82C11E49}.Debug|x86.ActiveCfg = Debug
+		{955C68C3-5FBA-4A4D-A34B-501D82C11E49}.Release|x64.ActiveCfg = Release
+		{955C68C3-5FBA-4A4D-A34B-501D82C11E49}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
