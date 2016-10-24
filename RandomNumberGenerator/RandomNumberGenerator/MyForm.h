@@ -3,7 +3,7 @@
 #include <time.h>
 #include "windows.h"
 
-namespace WindowsFormsCPPTest {
+namespace RandomNumberGenerator {
 
 	using namespace System;
 	using namespace System::ComponentModel;
@@ -236,5 +236,5 @@ namespace WindowsFormsCPPTest {
 	}
 
 
-};
+	};
 }
