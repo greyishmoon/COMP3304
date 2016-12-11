@@ -2,10 +2,22 @@
 //
 
 #include "stdafx.h"
-
+#include <iostream>
+#include <string>
+#include "hello.h"
+#include <process.h>
+using  namespace std;
 
 int main()
 {
-    return 0;
-}
+	Hello myHello;
+	string nameInput;
 
+	myHello.welcome();
+	cout << "What is your name? ";
+	cin >> nameInput;
+	myHello.setName(nameInput);
+	cout << myHello.getMessage() << endl;
+	system("pause");
+	return 0;
+}
