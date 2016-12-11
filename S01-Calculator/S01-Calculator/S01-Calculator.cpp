@@ -13,7 +13,7 @@ int main()
 	double num1, num2;
 	char operation, redo;
 	// define and instantiate Calc object
-	Calc func = Calc();
+	Calc calc = Calc();
 
 	// print welcome
 	cout << " Welcome to the calculater program v.1.0 written by Chris" << endl;
@@ -39,19 +39,19 @@ int main()
 		case'+':
 			cout << " The addition of two numbers (" << num1 << "," << num2 << "): ";
 			// call add method
-			cout << func.add(num1, num2) << endl;
+			cout << calc.add(num1, num2) << endl;
 			break;
 
 		case'-':
 			cout << " The substraction of two numbers (" << num1 << "," << num2 << "): ";
 			// call subtract method
-			cout << func.subtract(num1, num2) << endl;
+			cout << calc.subtract(num1, num2) << endl;
 			break;
 
 		case'*':
 			cout << " The multiplication of two numbers (" << num1 << "," << num2 << "): ";
 			// call multiply method
-			cout << func.multiply(num1, num2) << endl;
+			cout << calc.multiply(num1, num2) << endl;
 			break;
 
 		case'/':
@@ -64,7 +64,7 @@ int main()
 			else
 			{
 				// call divide method
-				cout << func.divide(num1, num2) << endl;
+				cout << calc.divide(num1, num2) << endl;
 			}
 			break;
 
