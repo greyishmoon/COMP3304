@@ -13,7 +13,7 @@ int main()
 	double num1, num2;
 	char operation, redo;
 	// define and instantiate Calc object
-	Calc calc = Calc();
+	Calc calc; 
 
 	// print welcome
 	cout << " Welcome to the calculater program v.1.0 written by Chris" << endl;
